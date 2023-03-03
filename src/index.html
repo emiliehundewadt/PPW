@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PPW</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@800&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@200&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="bg-beige">
+    <header class="banner">
+      <div class="logo">
+        <a href="index.html">
+          <img src="img/lillelogo.svg" alt="Hjem knap" />
+        </a>
+      </div>
+      <nav class="main-menu">
+        <button class="toggle-btn font-bigshoulders text-2xl font-extralight tracking-widest">MENU</button>
+        <ul>
+          <li class="toggle_about"><a href="index.html">ABOUT</a></li>
+          <li class="toggle_projects"><a href="portfolio.html">PROJECTS</a></li>
+          <li class="toggle_contact"><a href="om.html">CONTACT</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="overskrift">
+        <h1 class="navn font-bigshoulders font-extrabold text-orange">EMILIE HUNDEWADT</h1>
+        <h3 class="underoverskrift font-bigshoulders font-extralight tracking-widest">multimedia- and digital designer</h3>
+      </div>
+
+      <!-- <div class="groenboks1 col-span-2">
+        <img src="img/groenboks.png" alt="profilbillede" />
+      </div> -->
+
+      <section class="section1 grid grid-cols-2 rounded-none bg-grøn">
+        <div class="mig col-span-1 col-start-1 grid">
+          <img src="img/rigtigmig.png" alt="profilbillede" />
+        </div>
+
+        <div class="col-start-2">
+          <h1 class="m-4 text-center font-bigshoulders text-4xl font-extrabold text-orange">ABOUT</h1>
+          <p class="text-beige">As a multimedia designer, I work with all levels of the digital design process. By applying knowledge and creativity, together with my passion for design, I develop web solutions from idea to finished product. Im constantly seeking to learn and devolping my skills. I am therefore looking for an internship where I can acquire new knowledge especially with a focus on design, UI and UX.</p>
+          <h3 class="font-bigshoulders font-semibold tracking-widest">Read more</h3>
+        </div>
+      </section>
+
+      <section class="section 2">
+        <h1 class="m-4 text-center font-bigshoulders text-4xl font-extrabold text-orange">COMPENTENCES</h1>
+        <div class="grid grid-cols-3">
+          <div class="kolonne1 col-span-1 col-start-1 grid">
+            <ul>
+              <li>
+                <p>User experience (UX)</p>
+              </li>
+              <li>
+                <p>User interface (UI)</p>
+              </li>
+              <li>
+                <p>Storytelling</p>
+              </li>
+              <li>
+                <p>Branding</p>
+              </li>
+            </ul>
+          </div>
+          <div class="kolonne2 col-span-1 col-start-2 grid">
+            <ul>
+              <li>
+                <p>Web development  </p>
+              </li>
+              <li>
+                <p>HTML</p>
+              </li>
+              <li>
+                <p>CSS</p>
+              </li>
+              <li>
+                <p>PHP</p>
+              </li>
+            </ul>
+          </div>
+
+          <div class="kolonne3 col-span-1 col-start-3 grid">
+            <ul>
+              <li>
+                <p>Tailwind CSS</p>
+              </li>
+              <li>
+                <p>Adobe creative cloud</p>
+              </li>
+              <li>
+                <p>Figma</p>
+              </li>
+              <li>
+                <p>PHP</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section3 rounded-none bg-grøn">
+        <h1 class="m-4 text-center font-bigshoulders text-4xl font-extrabold text-orange">PROJECTS</h1>
+        <div class="grid grid-cols-2">
+          <div>
+            <h3 class="text-lg font-extralight text-orange">CAMPAIGN FOR BLAAGAARD THEATER</h3>
+            <p class="text-beige">For this case, the task was to prepare a campaign targeted at the target group 'young adults'.</p>
+          </div>
+          <div class="col-start-2 grid">
+            <h3 class="text-lg font-extralight text-orange">REDESIGN OF NØRREBRO UNITED</h3>
+            <p class="text-beige">For this case, the task consisted of developing and designing a web solution, with a focus on optimizing the user experience.</p>
+          </div>
+          <div>
+            <h3 class="text-lg font-extralight text-orange">REDESIGN OF ANE SCHOLLERT</h3>
+            <p class="text-beige">As an exam in the 2nd semester, a multimedia solution had to be prepared for an optional Danish artist.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
